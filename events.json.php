@@ -7,6 +7,7 @@ try{
 // 	$start = 2011-01-07;
 // 	$end = 2030-01-07;
 	
+// 	$strSQL  = "SELECT * FROM events WHERE `datetime` BETWEEN '".date('Y-m-d', $start)."' and '".date('Y-m-d', $end)."'";
  	// $query = mysql_query($strSQL);
 	
 	// $res = $db->query("SELECT * FROM events ");
